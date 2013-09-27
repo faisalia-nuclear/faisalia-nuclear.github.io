@@ -1,0 +1,102 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background: lightgrey;
+}
+
+nav {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	background: linear-gradient(white,grey);
+}
+
+nav ul {
+	width: 100%;
+	max-width: 960px;
+	margin: 0 auto;
+}
+
+nav ul li {
+	display: inline-block;
+	list-style: none;
+	width:16.6666666%;
+	padding: 10px 0;
+	text-align: center;
+}
+
+.header_bg {
+	background: cyan;
+}
+
+header {
+
+	padding: 10px;
+	background: cyan;
+	height: 260px;
+	max-width: 960px;
+	margin: 0 auto;
+	margin-top: 40px;
+}
+
+header ul {
+	display: block;
+	clear: both;
+	margin: 0 auto;
+}
+
+header ul li {
+	display: inline-block;
+	list-style: none;
+	width: 16.66666%;
+}
+
+header img.sub_logo {
+	margin: 20px 1% ;
+	float: right;
+}
+
+header ul li img {
+	display: block;
+	margin: 0 auto;
+}
+
+header .nuclear_logo {
+	float: left;
+	margin: 0;
+}
+
+div.body_constraint {
+	max-width: 960px;
+	margin: 0 auto;
+}
+
+div.body_constraint section img {
+	width: 100%;
+	height: 100%;
+}
+
+section {
+	background: white;
+	width: 45%;
+	float: left;
+	height: 300px;
+	margin: 1.25%;
+	padding: 1.25%;
+	border-radius: 10px;
+}
+
+.footer_bg {
+	background: black;
+	clear: both;
+}
+
+footer {
+	max-width: 960px;
+	margin: 0 auto;
+	color: white;
+}
