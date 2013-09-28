@@ -262,7 +262,7 @@ section div.subject_info span {
 
 section div.subject_info p {
 	font-size: 20px;
-	padding: 1px;
+	padding: 8px;
 }
 
 section div.subject_info span img {
@@ -270,31 +270,13 @@ section div.subject_info span img {
 	width: 100%;
 }
 
-section div.subject_info span strong {
-	display: block;
-	opacity: 0;
-	margin: 0 auto;
-	position: relative;
-	padding: 0 1px;
-	border-radius: 0 0 10px 10px;
-	bottom: 25px;
-	background: rgba(255,255,255,0.7);
-	transition: opacity .5s;
-	-webkit-transition: opacity .5s;
-
-}
-
-section div.subject_info span:hover strong {
-	opacity: 1;
-}
-
 section .content {
-	height: 258px;
-	width: 65%;
+	height: 265px;
+	width: 68%;
 	border-radius: 10px;
 	display: inline-block;
 	text-align: right;
-	margin: 7px 0;
+	margin: 7px 1%;
 	box-shadow: 2px 2px 6px;
 }
 
@@ -306,6 +288,27 @@ section .content em {
 	display: block;
 	font-size: 25px;
 	background: 
+}
+
+section .content ul li {
+	list-style: none;
+	background: url("media/bullet.png") no-repeat right center;
+	margin: 10px;
+	float: right;
+	display: inline-block;
+	padding-right: 15px;
+}
+
+section .content ul li a {
+	font-size: 18px;
+	font-weight: bold;
+	transition: all .5s;
+	-webkit-transition: all .5s;
+}
+
+section .content ul li a:hover {
+	color:#cf480e;
+	text-decoration: underline;
 }
 
 .footer_bg {
