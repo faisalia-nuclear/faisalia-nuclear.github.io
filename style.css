@@ -3,6 +3,7 @@ darkgrey:#262626,#1b1b1b;
 red:#8a0202,#600101;
 orange:#cf480e,#90320a;
 yellow:#f09415,#a8670f;
+beige:#fffae4,#ffefa7,#ffea88;
 */
 
 * {
@@ -25,7 +26,7 @@ h2 {
 	background: black;
 	color: white;
 	padding: 10px;
-	background: linear-gradient(#8a0202,#600101);
+	background: linear-gradient(#cf480e,#90320a);
 	border: 2px solid black;
 }
 
@@ -208,35 +209,35 @@ section div.width_constraint {
 
 section.intro {
 	height: 50%;
-	background: #f09415;
+	background: linear-gradient(#f09415,#a8670f);
 }
 
 section.math {
-	background: linear-gradient(#cf480e,#90320a);
+	background: linear-gradient(#ffefa7,#ffea88);
 }
 
 section.bio {
-	background: linear-gradient(#f09415,#a8670f);
+	background: linear-gradient(#ffefa7,#ffea88);
 }
 
 section.chem {
-	background: linear-gradient(#cf480e,#90320a);
+	background: linear-gradient(#ffefa7,#ffea88);
 }
 
 section.english {
-	background: linear-gradient(#f09415,#a8670f);
+	background: linear-gradient(#ffefa7,#ffea88);
 }
 
 section.arabic {
-	background: linear-gradient(#cf480e,#90320a);
+	background: linear-gradient(#ffefa7,#ffea88);
 }
 
 section.quraan {
-	background: linear-gradient(#f09415,#a8670f);
+	background: linear-gradient(#ffefa7,#ffea88);
 }
 
 .footer_bg {
-	background: black;
+	background: linear-gradient(#262626,#1b1b1b);
 }
 
 footer {
