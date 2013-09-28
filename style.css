@@ -18,6 +18,7 @@ html {
 body {
 	background: lightgrey;
 	height: 100%;
+	min-width: 520px;
 }
 
 h2 {
