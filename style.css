@@ -27,7 +27,8 @@ h2 {
 	color: white;
 	padding: 10px;
 	background: linear-gradient(#cf480e,#90320a);
-	border: 2px solid black;
+	border-top: 2px solid black;
+	border-bottom: 2px solid black;
 }
 
 a {
@@ -46,6 +47,7 @@ nav {
 	left: 0;
 	width: 100%;
 	background: linear-gradient(#262626,#1b1b1b);
+	box-shadow: 0 2px 2px;
 }
 
 nav ul {
@@ -59,8 +61,6 @@ nav ul li {
 	list-style: none;
 	width:16.6666666%;
 	text-align: center;
-	transition: all 0.5s;
-	-webkit-transition: all 0.5s;
 }
 
 nav ul li:hover {
@@ -199,7 +199,7 @@ header .nuclear_logo {
 }
 
 section {
-	height: 97%;
+	height: 630px;
 }
 
 section div.width_constraint {
@@ -208,7 +208,7 @@ section div.width_constraint {
 }
 
 section.intro {
-	height: 50%;
+	height: 320px;
 	background: linear-gradient(#f09415,#a8670f);
 }
 
@@ -234,6 +234,78 @@ section.arabic {
 
 section.quraan {
 	background: linear-gradient(#ffefa7,#ffea88);
+}
+
+.bio .subject_info , .quraan .subject_info, .english .subject_info {
+	float: left;
+}
+
+section div.subject_info {
+	width: 30%;
+	height: 100%;
+	float: right;
+	margin: 10px 0;
+	text-align: center;
+}
+
+section div.subject_info img {
+	width: 80%;
+	border-radius: 300px;
+	margin: 0 auto;
+}
+
+section div.subject_info span {
+	display: block;
+	width: 68%;
+	margin: 0 auto;
+}
+
+section div.subject_info p {
+	font-size: 20px;
+	padding: 1px;
+}
+
+section div.subject_info span img {
+	border-radius: 10px;
+	width: 100%;
+}
+
+section div.subject_info span strong {
+	display: block;
+	opacity: 0;
+	margin: 0 auto;
+	position: relative;
+	padding: 0 1px;
+	border-radius: 0 0 10px 10px;
+	bottom: 25px;
+	background: rgba(255,255,255,0.7);
+	transition: opacity .5s;
+	-webkit-transition: opacity .5s;
+
+}
+
+section div.subject_info span:hover strong {
+	opacity: 1;
+}
+
+section .content {
+	height: 258px;
+	width: 65%;
+	border-radius: 10px;
+	display: inline-block;
+	text-align: right;
+	margin: 7px 0;
+	box-shadow: 2px 2px 6px;
+}
+
+section .content em {
+	padding: 10px;
+	background: linear-gradient(#f09415,#a8670f);
+	border-radius: 10px 10px 0 0;
+	font-style: normal;
+	display: block;
+	font-size: 25px;
+	background: 
 }
 
 .footer_bg {

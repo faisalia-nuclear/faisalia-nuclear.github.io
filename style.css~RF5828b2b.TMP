@@ -1,0 +1,298 @@
+/*color scheme
+darkgrey:#262626,#1b1b1b;
+red:#8a0202,#600101;
+orange:#cf480e,#90320a;
+yellow:#f09415,#a8670f;
+beige:#fffae4,#ffefa7,#ffea88;
+*/
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	height: 100%;
+}
+
+body {
+	background: lightgrey;
+	height: 100%;
+}
+
+h2 {
+	font-size: 30px;
+	text-align: center;
+	background: black;
+	color: white;
+	padding: 10px;
+	background: linear-gradient(#cf480e,#90320a);
+	border: 2px solid black;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+a:visited {
+	color: none;
+}
+
+nav {
+	z-index: 4;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	background: linear-gradient(#262626,#1b1b1b);
+}
+
+nav ul {
+	width: 100%;
+	max-width: 960px;
+	margin: 0 auto;
+}
+
+nav ul li {
+	display: inline-block;
+	list-style: none;
+	width:16.6666666%;
+	text-align: center;
+	transition: all 0.5s;
+	-webkit-transition: all 0.5s;
+}
+
+nav ul li:hover {
+	background: linear-gradient(white,lightgrey);
+}
+
+nav ul li a {
+	display: block;
+	padding: 10px 0;
+	height: 100%;
+	width: 100%;
+	color: white;
+}
+
+nav ul li:hover a {
+	color: black;
+}
+
+img.arrow {
+	position: fixed;
+	right: 0;
+	top: 250px;
+	background: #262626;
+	border-radius: 5px 0 0 5px;
+}
+
+header {
+	background: linear-gradient(#8a0202,#600101);
+}
+
+.header_constraint {
+	padding: 10px;
+	height: 50%;
+	max-width: 960px;
+	margin: 0 auto;
+	margin-top: 40px;
+}
+
+header ul {
+	display: block;
+	clear: both;
+	margin: 0 auto;
+}
+
+header ul li {
+	display: inline-block;
+	list-style: none;
+	width: 16.66666%;
+}
+
+header ul li span {
+	display: block;
+	height: 80px;
+	width: 80px;
+	margin: 0 auto;
+	background: no-repeat center center;
+	background-size: 100%;
+	position: relative;
+	border-radius: 10px;
+}
+
+header ul li span.omar {
+	background-image: url('media/omar.jpg');
+}
+
+header ul li span.omar:hover h3 {
+	opacity: 1;
+}
+
+header ul li span.mhd {
+	background-image: url('media/mhd.jpg');
+}
+
+header ul li span.mhd:hover h3 {
+	opacity: 1;
+}
+
+header ul li span.salman {
+	background-image: url('media/salman.jpg');
+}
+
+header ul li span.salman:hover h3 {
+	opacity: 1;
+}
+
+header ul li span.aziz_g {
+	background-image: url('media/aziz_g.jpg');
+}
+
+header ul li span.aziz_g:hover h3 {
+	opacity: 1;
+}
+
+header ul li span.aziz_n {
+	background-image: url('media/aziz_n.jpg');
+}
+
+header ul li span.aziz_n:hover h3 {
+	opacity: 1;
+}
+
+header ul li span.mosleh {
+	background-image: url('media/mosleh.jpg');
+}
+
+header ul li span.mosleh:hover h3 {
+	opacity: 1;
+}
+
+header ul li span h3 {
+	opacity: 0;
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	text-align: center;
+	background: rgba(255,255,255,0.4);
+	border-radius: 0 0 10px 10px;
+	transition: all 0.5s;
+	-webkit-transition: all 0.5s;
+}
+
+header img.sub_logo {
+	margin: 20px 1% ;
+	padding: 5px;
+	float: right;
+	background: white;
+	border-radius: 10px;
+	border: 1px solid black;
+}
+
+
+
+header .nuclear_logo {
+	float: left;
+	margin: 0;
+}
+
+section {
+	height: 630px;
+}
+
+section div.width_constraint {
+	max-width: 960px;
+	margin: 0 auto;
+}
+
+section.intro {
+	height: 320px;
+	background: linear-gradient(#f09415,#a8670f);
+}
+
+section.math {
+	background: linear-gradient(#ffefa7,#ffea88);
+}
+
+section.bio {
+	background: linear-gradient(#ffefa7,#ffea88);
+}
+
+section.chem {
+	background: linear-gradient(#ffefa7,#ffea88);
+}
+
+section.english {
+	background: linear-gradient(#ffefa7,#ffea88);
+}
+
+section.arabic {
+	background: linear-gradient(#ffefa7,#ffea88);
+}
+
+section.quraan {
+	background: linear-gradient(#ffefa7,#ffea88);
+}
+
+section div.subject_info {
+	width: 30%;
+	height: 100%;
+	float: right;
+	margin: 10px;
+	text-align: center;
+}
+
+section div.subject_info img {
+	width: 80%;
+	border-radius: 300px;
+	margin: 0 auto;
+}
+
+section div.subject_info span {
+	display: block;
+	width: 100%;
+}
+
+section div.subject_info span img {
+	border-radius: 10px;
+	width: 70%;
+}
+
+section div.subject_info span strong {
+	display: block;
+	
+}
+
+.footer_bg {
+	background: linear-gradient(#262626,#1b1b1b);
+}
+
+footer {
+	max-width: 960px;
+	margin: 0 auto;
+	color: white;
+	padding: 5px;
+	height: 30px;
+}
+
+footer h1 {
+	font-size: 20px;
+	display: inline-block;
+	float: right;
+	padding-top: 4px;
+}
+
+footer h6 {
+	font-size: 16px;
+	display: inline-block;
+	float: left;
+	padding-top: 5px;
+	padding-left: 5px;
+}
+
+footer img {
+	display: inline-block;
+	float: left;
+}
